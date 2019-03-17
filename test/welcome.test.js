@@ -1,22 +1,12 @@
-process.env.NODE_ENV = "test";
+// const request = require("supertest");
+// const app = require("../index");
 
-const chai = require("chai");
-const chaiHttp = require("chai-http");
-const index = require("../index");
-const should = chai.should();
-
-chai.use(chaiHttp);
-
-describe("Users", () => {
-  describe("/GET /", () => {
-    it("it should GET all the users", done => {
-      chai
-        .request(index)
-        .get("/")
-        .end((err, res) => {
-          res.should.have.status(200);
-          done();
-        });
-    });
-  });
-});
+// describe("GET /", () => {
+//   it("respond with json containing a message welcome", done => {
+//     request(app)
+//       .get("/")
+//       .set("Accept", "application/json")
+//       .expect("Content-Type", /json/)
+//       .expect(200, done);
+//   });
+// });
