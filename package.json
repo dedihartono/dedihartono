@@ -16,7 +16,6 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.2.0",
-    "chai-http": "^4.2.1",
     "mocha": "^6.0.2",
     "nodemon": "^1.18.10",
     "supertest": "^4.0.2"
@@ -27,7 +26,7 @@
     "concurrently": "^4.1.0",
     "express": "^4.16.4",
     "gravatar": "^1.8.0",
-    "jsonwebtoken": "^8.5.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.4.19",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
