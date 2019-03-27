@@ -11,12 +11,6 @@ const ProfileSchema = new Schema({
     required: true,
     max: 40
   },
-  company: {
-    type: String
-  },
-  website: {
-    type: String
-  },
   location: {
     type: String
   },
@@ -29,9 +23,6 @@ const ProfileSchema = new Schema({
     required: true
   },
   bio: {
-    type: String
-  },
-  githubusername: {
     type: String
   },
   experience: [
@@ -124,6 +115,12 @@ const ProfileSchema = new Schema({
       type: String
     },
     instagram: {
+      type: String
+    },
+    github: {
+      type: String
+    },
+    gitlab: {
       type: String
     }
   },
